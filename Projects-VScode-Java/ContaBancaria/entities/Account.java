@@ -12,7 +12,7 @@ public class Account {
         
     }
 
-    public Account(int number, String holder, double initialDe3posit) {
+    public Account(int number, String holder, double initialDeposit) {
         this.number = number;
         this.holder = holder;
         deposit(initialDeposit);
@@ -34,7 +34,7 @@ public class Account {
         return balance;
     }
     
-    public void deposit(doubl amount){
+    public void deposit(double amount){
         balance += amount;
     }
     
